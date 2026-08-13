@@ -1,0 +1,30 @@
+# ===== 环境变量（含 API Key，严禁提交） =====
+backend/.env
+.env
+.env.*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# ===== Node =====
+node_modules/
+dist/
+*.local
+
+# ===== 数据库（本地数据） =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
